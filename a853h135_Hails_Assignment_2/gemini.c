@@ -4,8 +4,7 @@ Description: Implements an email inbox priority queue using a dynamic binary Max
     Emails are prioritized based on sender hierarchy, arrival date (newest first), and
     arrival order. Supports commands to add emails (EMAIL), view the next email (NEXT),
     read/remove the next email (READ), and display the unread email count (COUNT).
-Input: Optional command-line argument specifying an input text file path; otherwise, reads
-    commands interactively or via redirection from standard input (stdin).
+Input: Reads commands via redirection from standard input (stdin).
 Output: Standard output displaying the number of unread emails, formatted details of the
     highest-priority email, and error/warning messages for malformed commands.
 Collaborators: Gemini
